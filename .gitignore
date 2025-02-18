@@ -29,6 +29,8 @@ replay_pid*
 *.kotlin_module
 *.kotlin_builtins
 *.kotlin_metadata
+*.kt
+*.kts
 
 # Kotlin build directories
 out/
