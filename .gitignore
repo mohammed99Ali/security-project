@@ -23,7 +23,23 @@
 hs_err_pid*
 replay_pid*
 
-# Kotlin Gradle plugin data, see https://kotlinlang.org/docs/whatsnew20.html#new-directory-for-kotlin-data-in-gradle-projects
+# Kotlin specific
+*.kt.class
+*.ktm
+*.kotlin_module
+*.kotlin_builtins
+*.kotlin_metadata
+
+# Kotlin build directories
+out/
+build/
+.gradle/
+
+# Kotlin compiler
 .kotlin/
-.kt/
-.kts/
+
+# IntelliJ IDEA (common for Kotlin projects)
+.idea/
+*.iml
+*.iws
+*.ipr
